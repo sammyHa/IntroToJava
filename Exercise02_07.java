@@ -1,3 +1,5 @@
+/*Author Samim Hakimi*/
+// Created @ 2/7/2018 SD
 import java.util.Scanner;
 public class Exercise02_07 {
     public static void main(String[] args) {
