@@ -1,0 +1,17 @@
+import java.util.Scanner;
+public class ComputeArea {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        double length, width, area;
+        print("Enter length of a rectangle: ");
+        length = input.nextDouble();
+        print("Enter width of a rectangle: ");
+        width = input.nextDouble();
+        area = length * width;
+        print("The total area of rectangle is " + area);
+    }
+
+    public static void print(String message){
+        System.out.print(message);
+    }
+}
